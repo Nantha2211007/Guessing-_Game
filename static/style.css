@@ -1,0 +1,23 @@
+.main {
+    background-color: #BBDDFF;
+    border-radius: 5px;
+    width: 500px;
+    height: 150px;
+    margin: 100px
+}
+body {
+    background-color:bisque;
+}
+h1 {
+    text-align: center;
+}
+input {
+    width:200px;
+    border-radius:4px;
+    height: 20px;
+}
+button {
+    background-color:darkgoldenrod;
+    box-shadow: 5px;
+    color: white;
+}

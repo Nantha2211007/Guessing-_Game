@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="icon" href="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <h1>Welcome to the number guessing game!</h1>
+        <center>
+        <div class="main">
+            <form method="POST" action="/guess">
+            <table>
+                <tr>
+                    <td><h4>Guess here:</h4></td>
+                    <td><input type="number" name="guess"></td>
+                    <td><button type="submit" >Submit here</button></td>
+                </tr>
+            
+                <tr>
+                    <td><h4>Output:</h4></td>
+                    <td>{{ result }}</td>
+                </tr>
+            </table>
+            </form>
+        </div>
+        </center>
+    </body>
+</html>
